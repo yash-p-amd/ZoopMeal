@@ -7,7 +7,7 @@
 * Responsive design and layouts.
 * Support wide range of screen resolutions.
 * Side menu navigation drawer.
-* Support multiple platforms including iOS, Android & Browser.
+* Support multiple platforms including iOS, Android & Web Browser.
 
 Here's what it looks like in action.( Wait for GIF )
 
