@@ -11,5 +11,5 @@
 
 Here's what it looks like in action.( Wait for GIF )
 
-![Alt Text](https://github.com/YASH12366/PayTrail/blob/master/PayTrailDemo.gif)
+![Alt Text](https://github.com/YASH12366/ZoopMeal/blob/master/ZoopMealDemo.gif)
 
