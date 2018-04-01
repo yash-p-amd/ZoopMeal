@@ -1,0 +1,22 @@
+h1,h3
+{
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 900;
+
+}
+#lineSet
+{
+  width: 100%;
+  height: 40px;
+}
+#mapcon
+{
+  width: 100%;
+  text-align: center;
+}
+#setmap
+{
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}

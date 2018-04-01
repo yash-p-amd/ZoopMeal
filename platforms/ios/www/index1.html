@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Slidebars Dev Page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="slidebars.css">
+		<link rel="stylesheet" href="style.css">
+
+		<link rel="stylesheet" type="text/css" href="css/normalizebutton.css" />
+		<link rel="stylesheet" type="text/css" href="css/vicons-font.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+
+		<script src="js/segment.min.js"></script>
+		<script src="js/ease.min.js"></script>
+	</head>
+
+	<body body scroll="no" style="overflow: hidden" >
+		<div canvas="container" class="temp">
+
+
+			<!-- <div id="header">
+				<div id="headerleft">
+				</div>
+				<div id="headerright">
+				</div>
+			</div> -->
+			<!-- <div style="float: left;margin-top:20px;"><button style="background-color:white;border:0;" class="js-toggle-left-slidebar"><img src="img/menu.png" alt="Submit" style="height:40px;width:40px;"></button>
+</div> -->
+<!-- <div style="float: left;margin-top:20px;"><img value=" button"class="js-toggle-left-slidebar" src="img/menu.png" style="height:40px;width:40px;"></img>
+</div> -->
+<div>
+	<button id="menubtn"  class="js-toggle-left-slidebar button button--sacnite button--round-l"><i class="button__icon icon icon-bookmark"></i><span>Bookmark</span></button><p id="sidetitle">ZoopMeal</p>
+</div>
+<br>
+
+			<!-- <div style="margin: 0 auto; width: 100px;"><h1>ZoopMeal</h1></div> -->
+			<div id="iframe">
+				<iframe src="index2.html" id="mainframeid" width="100%" height="85%" frameborder="0">
+					<p>Your browser does nost support iframes.</p>
+				</iframe>
+			</div>
+		</div>
+
+		<div off-canvas="slidebar-1 left reveal" style="background-color:#E74C3C; display: block;">
+			<div id="homeicon">
+				<img id="homeitself"src="img/home.png" alt="">
+			</div>
+			<button class="button button--rayen button--border-thick button--text-thick " data-text="Menu" id="menubtnid"><span>Menu</span></button>
+			<button class="button button--rayen button--border-thick button--text-thick " data-text="Cart" id="cartbtnid"><span>Cart</span></button>
+			<button class="button button--rayen button--border-thick button--text-thick " data-text="About Me" id="aboutmebtnid"><span>About Me</span></button>
+			<button class="button button--rayen button--border-thick button--text-thick " data-text="Logout" id="logoutbtnid"><span>Logout</span></button>
+
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="slidebars.js"></script>
+		<script src="scripts.js"></script>
+		<script type="text/javascript" src="js/sidemenuevent.js"></script>
+
+		</script>
+		<script>
+			(function() {
+				var isSafari = !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/);
+				if(isSafari) {
+					document.getElementById('support-note').style.display = 'block';
+				}
+			})();
+		</script>
+	</body>
+</html>
