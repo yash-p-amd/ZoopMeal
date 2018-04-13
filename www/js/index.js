@@ -56,7 +56,7 @@ function loginbtn()
   var nameid = document.getElementById("nameid").value;
   var passid = document.getElementById("passid").value;
 
-  if(nameid == "Admin" && passid == "123456")
+  if(nameid == "Admin" && passid == "Admin")
   {
     window.location="index1.html";
   }
